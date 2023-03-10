@@ -47,8 +47,8 @@ permalink: /assignments/1/
 {% for image in site.static_files %}
   {% if image.path contains 'a1' %}
     <div class="card column" style="width:300px">
-      <a href="/assignments/1/p{{ forloop.index }}/">
-        <img src="{{ image.path }}" alt="{{ image.name }}" width="100%">
+      <a href="{{ site.baseurl }}/assignments/1/p{{ forloop.index }}/">
+        <img src="{{ site.baseurl }}/{{ image.path }}" alt="{{ image.name }}" width="100%">
       </a>
       <div class="container">
         <h4><b>Portrait {{ forloop.index }}</b></h4>
