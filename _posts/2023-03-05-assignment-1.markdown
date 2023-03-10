@@ -45,7 +45,7 @@ permalink: /assignments/1/
 {% assign image_names = "JS Paint (pencil only),JS Paint (all tools),GIMP,InkScape" | split: ',' %}
 
 {% for image in site.static_files %}
-  {% if image.path contains 'a1' %}
+  {% if image.path contains 'a1' and image.path contains 'portrait' %}
     <div class="card column" style="width:300px">
       <a href="{{ site.baseurl }}/assignments/1/p{{ forloop.index }}/">
         <img src="{{ site.baseurl }}/{{ image.path }}" alt="{{ image.name }}" width="100%">
@@ -61,11 +61,11 @@ permalink: /assignments/1/
 
 <br>
 
-{% highlight python %}
+<!-- {% highlight python %}
 # Test syntax highlighting for jekyll markdown
 def hello_world():
     print("Hello world")
-{% endhighlight %}
+{% endhighlight %} -->
 
 [link-one]: https://jekyllrb.com/docs/home
 [link-two]: https://github.com/jekyll/jekyll
