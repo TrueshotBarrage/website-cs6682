@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-css: assets/css/styles.scss
+css: assets/css/style.scss
 ---
 
 <h1 align="center">Hello</h1>
