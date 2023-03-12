@@ -59,6 +59,8 @@ permalink: /assignments/1/
 {% endfor %}
 </div>
 
+<iframe width="456" height="811" src="https://www.youtube.com/embed/qyjcfaZwWBI" title="part3 tracking video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <br>
 
 <!-- {% highlight python %}
